@@ -49,6 +49,7 @@ Members:
 
  This document contains works as a report done for Homework 5, where it was asked to compare the performance of Feed-Forward and Convolutional Neural Networks and assess the impact of changing some characteristics.
 
+![MNIST](https://github.com/rufimelo99/MNIST/blob/main/images/MNIST.JPG?raw=true)
 <!-- USAGE EXAMPLES -->
 ## Keywords
 MNIST, Convolutional Neural Network, Feed-Forward, Machine Learning
@@ -143,10 +144,10 @@ A very usual Convolutional Neural Network use is to detect patterns in images. T
 **Number of kernels**
 In this study, it was used kernels where the window is assumed to be squared.
 The size of the square window was tested from 1 to 6, meaning the window would be (N x N)
-![KernelSiz](https://user-images.githubusercontent.com/44201826/138126360-618d9a08-3027-4e4c-9ec4-3ecc07a68219.PNG)
+![KernelSiz](https://github.com/rufimelo99/MNIST/blob/main/images/1.png?raw=true)
 `Figure 1 - Accuracy on Testing Dataset for each kernel Square Size`
 
-![FilterSize](https://user-images.githubusercontent.com/44201826/138126361-acc03ebe-840f-487b-abe4-7bab00c3b807.PNG)
+![FilterSize](https://github.com/rufimelo99/MNIST/blob/main/images/2.png?raw=true)
 
 `Figure 2 - Accuracy on Testing Dataset for each Filter Size`
 
@@ -213,10 +214,10 @@ When discussing the regularization in particular, applying a batch Normalization
 **Conclusion's Test**
 After gathering information about the different Neural Networks and access the impact of changing different characteristics, it was tested a final model. It was tested a Convolutional Neural Network with 5 Convolutional Layers. Those layers started with 6x6 kernel until 2x2. Also, it was applied Max Pooling and Batch Normalization. It turned out with an accuracy of 0.9953 regarding the training dataset and an accuracy of 0.9895 regarding the testing dataset.
 
-![Loss](https://user-images.githubusercontent.com/44201826/138126366-d17c2165-7e81-4435-8211-aa65cbf26641.PNG)
+![Loss](https://github.com/rufimelo99/MNIST/blob/main/images/3.png?raw=true)
 `Figure 3 - Final Model Loss`
 
 
-![acc](https://user-images.githubusercontent.com/44201826/138126363-f4578aa8-7c63-43a5-ac85-058901aa96fe.PNG)
+![acc](https://github.com/rufimelo99/MNIST/blob/main/images/4.png?raw=true)
 
 `Figure 4 - Final Model Accuracy`
